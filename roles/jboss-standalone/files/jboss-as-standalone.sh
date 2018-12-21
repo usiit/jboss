@@ -44,11 +44,11 @@ if [ -z "$JBOSS_CONSOLE_LOG" ]; then
 fi
 
 if [ -z "$STARTUP_WAIT" ]; then
-  STARTUP_WAIT=30
+  STARTUP_WAIT=60
 fi
 
 if [ -z "$SHUTDOWN_WAIT" ]; then
-  SHUTDOWN_WAIT=30
+  SHUTDOWN_WAIT=60
 fi
 
 if [ -z "$JBOSS_CONFIG" ]; then
